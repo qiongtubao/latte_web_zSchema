@@ -1,0 +1,18 @@
+/test
+gets:{
+
+}
+{
+
+}
+TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:542:11)
+    at ServerResponse.res.end (/Users/zhouguodong/Documents/github/latte_shell_modules/latte_webServer4/lib/server/index.js:172:14)
+    at /Users/zhouguodong/Documents/github/latte_shell_modules/latte_webServer4/lib/server/web/index.js:60:14
+    at /Users/zhouguodong/Documents/github/latte_lib/lib/async.js:254:19
+    at /Users/zhouguodong/Documents/github/latte_lib/lib/async.js:153:23
+    at /Users/zhouguodong/Documents/github/latte_lib/lib/async.js:251:23
+    at /Users/zhouguodong/Documents/github/latte_lib/lib/async.js:709:36
+    at /Users/zhouguodong/Documents/github/latte_web_modules/latte_web_zSchema/lib/index.js:12:6
+    at /Users/zhouguodong/Documents/github/latte_web_modules/latte_web_zSchema/node_modules/z-schema/src/Report.js:46:13
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
